@@ -1,0 +1,21 @@
+#hero{
+    height: 80vh;
+    /* background-color: red; */
+    /* For browsers that do not support gradients */
+    background-image: url('../../../../../public/Airport\ Transfers.png');
+    background-repeat:no-repeat;
+    background-position-x:right;
+    background-position-y:bottom;
+}
+.hero-container{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), #fbd7840a, rgb(0, 0, 0));
+    height: 100%;
+}
+.rotate-90{
+    transform:rotate(90deg);
+    /* background-color: red; */
+}
+.rotate-270{
+    transform:rotate(270deg);
+    /* background-color: red; */
+}
