@@ -1,21 +1,69 @@
-#hero{
+#hero {
     height: 80vh;
     /* background-color: red; */
     /* For browsers that do not support gradients */
     background-image: url('../../../../../public/Airport\ Transfers.png');
-    background-repeat:no-repeat;
-    background-position-x:right;
-    background-position-y:bottom;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
 }
-.hero-container{
+
+.hero-container {
     background-image: linear-gradient(to bottom, rgb(0, 0, 0), #fbd7840a, rgb(0, 0, 0));
     height: 100%;
 }
-.rotate-90{
-    transform:rotate(90deg);
-    /* background-color: red; */
+
+.social-media {
+    width: 30px;
+    font-size: 13.5;
+    font-weight: 400;
+    writing-mode: vertical-rl;
 }
-.rotate-270{
-    transform:rotate(270deg);
-    /* background-color: red; */
+
+.social-media a {
+    line-height: 0%;
+}
+
+.social-media img {
+    transform: rotate(90deg);
+}
+
+.hero-title {
+    color: #806E45;
+    text-transform: uppercase;
+}
+
+.line {
+    width: 54px;
+    height: 5px;
+    background-color: #806E45;
+}
+
+.hero-content {
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.book-btn {
+    background: #FBD78480;
+    width: 213px;
+    height: 56px;
+    border-radius: 4px;
+}
+
+.book-btn:hover {
+    background: #FBD784;
+}
+
+
+.slider-line{
+    background: rgba(255, 255, 255, 0.5);
+    width: 2.25px;
+    height: 180px;
+}
+.slider-indicator-line{
+    background: white;
+    width: 2.25px;
+    height: 45px;
 }

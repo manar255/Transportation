@@ -1,0 +1,16 @@
+.feature-title {
+    color: #806E45;
+    /* text-transform: uppercase; */
+}
+
+.gold-line {
+    width: 54px;
+    height: 5px;
+    background-color: #806E45;
+}
+.card-bg{
+    background: #292929;
+}
+.h-400{
+    height: 400px;
+}
