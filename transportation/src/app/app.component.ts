@@ -5,11 +5,12 @@ import { FooterComponent } from './../views/footer/footer.component';
 import { HeaderComponent } from './../views/header/header.component';
 import { OurFleetComponent } from '../views/our-fleet/our-fleet.component';
 import { ContactComponent } from '../views/contact/contact.component';
+import { AboutComponent } from '../views/about/about.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HomeComponent, FooterComponent, HeaderComponent,OurFleetComponent,ContactComponent],
+  imports: [RouterOutlet, HomeComponent, FooterComponent, HeaderComponent,OurFleetComponent,ContactComponent,AboutComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
