@@ -6,6 +6,31 @@
     font-family: "Inter", serif;
 }
 
-.bg-light-black{
+.bg-light-black {
     background: #070707;
+}
+
+.text-gold {
+    color: #806E45;
+}
+
+.book-btn {
+    background: #FBD78480;
+    /* width: 139px; */
+    /* height: 40px; */
+    border-radius: 4px;
+}
+
+.gold-line {
+    width: 54px;
+    height: 5px;
+    background-color: #806E45;
+}
+
+.bg-gold {
+    background: #B5A06C;
+}
+
+.bg-dark-gold {
+    background: #1B1B1B;
 }
