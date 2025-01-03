@@ -1,0 +1,21 @@
+.nav-links {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.nav-links .selected {
+    color: #806E45;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.book-btn {
+    background: #FBD78480;
+    width: 139px;
+    height: 40px;
+    border-radius: 4px;
+}

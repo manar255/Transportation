@@ -1,0 +1,21 @@
+.option-title {
+    color: #806E45;
+    /* text-transform: uppercase; */
+}
+
+.gold-line {
+    width: 54px;
+    height: 5px;
+    background-color: #806E45;
+}
+.card-bg{
+    background: #1B1B1B;
+}
+.h-470{
+    height: 470px;
+}
+.option-card img {
+    margin-bottom: auto;
+    width: 100%;
+    height: auto;
+}
